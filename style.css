@@ -1,0 +1,82 @@
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+    background:url(https://frac.org/wp-content/uploads/blackboard-books-apple-homepage-banner-e1503061703214.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	background-color: #c7dddf00;
+	font-size:xx-large;
+	text-align: center;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: #9eb1b300;
+		
+}
+.option{	
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: rgba(135, 206, 250, 0.719);
+	border-radius: 5%;
+}
+.option:hover{
+	background-color: lightgoldenrodyellow;
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:#c7dddf00;
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+	
+	background-color: #c9a063;
+}
+.next{
+	color: white;
+	background-color: #BF3325;
+}
